@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test in Chrome(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="Factorial.AutomateFactorialwebsite">
+        <methods>
+          <include name="Class3"/>
+          <include name="closeapplication"/>
+          <include name="Class4"/>
+          <include name="launchApplication"/>
+          <include name="step1"/>
+          <include name="Class1"/>
+        </methods>
+      </class> <!-- Factorial.AutomateFactorialwebsite -->
+    </classes>
+  </test> <!-- Test in Chrome(failed) -->
+  <test thread-count="5" name="Test in Edge(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="Factorial.AutomateFactorialwebsite">
+        <methods>
+          <include name="Class3"/>
+          <include name="closeapplication"/>
+          <include name="Class4"/>
+          <include name="launchApplication"/>
+          <include name="step1"/>
+          <include name="Class1"/>
+        </methods>
+      </class> <!-- Factorial.AutomateFactorialwebsite -->
+    </classes>
+  </test> <!-- Test in Edge(failed) -->
+</suite> <!-- Failed suite [Regression] -->
